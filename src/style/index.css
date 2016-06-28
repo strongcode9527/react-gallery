@@ -1,0 +1,82 @@
+body,html{
+	margin:0;
+	background-color:#ddd;
+
+}
+/* 整体 --start*/
+.container{
+	position:relative;
+
+}
+/* 整体 --end*/
+
+
+/*stage --start*/
+.stage{
+ height:680px;
+ width:100%;
+
+}
+.img-sec{
+  width:100%;
+  height:100%;
+
+}
+/*stage --end*/
+/* figure  --start*/
+.figure{
+	position:absolute;
+	text-align:center;
+	background-color:#fff;
+	margin:0px;
+	width:350px;
+	height:360px;
+
+	box-sizing: border-box;
+	cursor: pointer;
+	transform-origin: 0 50% 0;
+	transform-style: preserve-3d;
+	transition: transform .6s ease-in-out, left .6s ease-in-out, top .6s ease-in-out;
+
+}
+.imgFigure{
+	padding:40px 40px 0px 40px;
+
+  margin:0px;
+  width:270px;
+
+
+}
+.imgTitle{
+	margin-top:20px;
+	text-align:center;
+  color:#666;
+}
+
+.img-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+	width: 100%;
+	height: 100%;
+  padding: 50px 40px;
+  overflow: auto;
+
+  color: #a7a0a2;
+  font-size: 22px;
+  line-height: 1.25;
+  text-align: left;
+
+  background-color: #fff;
+
+  box-sizing: border-box;
+  transform: rotateY(180deg) translateZ(1px);
+  backface-visibility: hidden;
+}
+
+
+.reverse{
+	  transform: translate(320px) rotateY(180deg);
+}
+/*figure --end*/
